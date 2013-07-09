@@ -8,3 +8,7 @@
 3. git clone - TortoiseGit
 	* Load Putty Key: *.ppk
 	* URL: git@github.com:Henry2012/gitCheatSheat.git
+	
+#Attention
+1. 理解ppk (private key)的来由
+2. public key和github SSH之间的交互
