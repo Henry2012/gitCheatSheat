@@ -9,6 +9,7 @@
 	* Load Putty Key: *.ppk
 	* URL: git@github.com:Henry2012/gitCheatSheat.git
 4. 需要在tortoisegit中设置用户名及邮箱
+5. This is for test.
 	
 #Attention
 1. 理解ppk (private key)的来由
@@ -16,4 +17,4 @@
 
 #Q & A
 1. 右键不显示git clone
-	安装tortoisegit
+	* 安装tortoisegit
