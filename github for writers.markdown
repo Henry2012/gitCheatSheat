@@ -12,3 +12,7 @@
 #Attention
 1. 理解ppk (private key)的来由
 2. public key和github SSH之间的交互
+
+#Q & A
+1. 右键不显示git clone
+	安装tortoisegit
