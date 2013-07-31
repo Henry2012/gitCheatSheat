@@ -20,3 +20,5 @@
 #Q & A
 1. 右键不显示git clone
 	* 安装tortoisegit
+2. SSH文件更改之后如何关联
+	* TortoiseGit --> Git -> Remote -> origin -> Putty
