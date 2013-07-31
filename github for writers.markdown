@@ -22,3 +22,4 @@
 	* 安装tortoisegit
 2. SSH文件更改之后如何关联
 	* TortoiseGit --> Git -> Remote -> origin -> Putty
+3. **Bitbucket需要为每一个repo设置SSH Key，如何避免这么麻烦的操作？**
