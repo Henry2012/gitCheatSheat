@@ -24,7 +24,10 @@
 6. PuttyGen load private key,需要load ppk格式的文件，生成一个public key
 7. [bitbucket](https://bitbucket.org/account/user/QiqunH/ssh-keys/ "bitbucket")的SSH keys和deployment keys不一样
 #Attention
-1. 理解ppk (private key)的来由
+1. 3个不同的key文件
+	* id_rsa.ppk <-- putty private key,也就是，ppk是利用puttygen生成的私钥，是Tortoise Git需要的格式
+	* id_rsa <-- 没有后缀名的私钥，foreign key (OpenSSH SSH-2 private key),是egit需要的格式
+	* id_rsa.pub <-- 公钥
 2. public key和github SSH之间的交互
 
 #Q & A
