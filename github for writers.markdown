@@ -40,3 +40,9 @@
 	* 杰哥：git repo是一个操作单位，不可以跨repo同时commit or push 	
 5. 为什么egit只可以commit，不可以push；而对应的文件夹里却能实现commit & push?
 
+#bak
+1. .gitignore
+	*.bak
+	*.pyc
+	
+
