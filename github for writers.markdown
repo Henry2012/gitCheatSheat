@@ -51,10 +51,12 @@
 	* finally it works for file system, although egit sucks
 	* [another reference](http://www.munsplace.com/blog/2012/07/27/saving-username-and-password-with-tortoisegit/)
 
-	
-#bak
+# bak
 1. .gitignore
+
+	```
 	*.bak
 	*.pyc
+	```
 	
 
