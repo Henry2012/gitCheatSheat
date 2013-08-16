@@ -25,6 +25,8 @@
 7. [bitbucket](https://bitbucket.org/account/user/QiqunH/ssh-keys/ "bitbucket")的SSH keys和deployment keys不一样
 8. pull = fetch + rebase
 9. 一个md文档里最好只有一个“===”标记的标题，不然会有意料外的显示
+10. "#"开头的标题之前需要空一行
+
 #Attention
 1. 3个不同的key文件
 	* id_rsa.ppk <-- putty private key,也就是，ppk是利用puttygen生成的私钥，是Tortoise Git需要的格式
