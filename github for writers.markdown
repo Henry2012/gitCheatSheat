@@ -23,6 +23,8 @@
 5. SSH2 (eclipse) --> Load Existing Key 需要load没有后缀的文件（这里通过eclipse -> SSH2 -> Key Management -> Gernerate RSA Key生成了两个文件，一个没有后缀，一个是以pub结尾）
 6. PuttyGen load private key,需要load ppk格式的文件，生成一个public key
 7. [bitbucket](https://bitbucket.org/account/user/QiqunH/ssh-keys/ "bitbucket")的SSH keys和deployment keys不一样
+8. pull = fetch + rebase
+9. 一个md文档里最好只有一个“===”标记的标题，不然会有意料外的显示
 #Attention
 1. 3个不同的key文件
 	* id_rsa.ppk <-- putty private key,也就是，ppk是利用puttygen生成的私钥，是Tortoise Git需要的格式
@@ -39,7 +41,15 @@
 4. **利用egit如何实现多个projects同时commit & push?**
 	* 杰哥：git repo是一个操作单位，不可以跨repo同时commit or push 	
 5. 为什么egit只可以commit，不可以push；而对应的文件夹里却能实现commit & push?
+6. [Tortoisegit asking password](http://stackoverflow.com/questions/8846972/tortoisegit-asking-password)
+	* Right click -> TortoiseGit -> Settings -> Network
+	* SSH client was pointing to C:\Program Files\TortoiseGit\bin\TortoisePlink.exe
+	* Changed path to C:\Program Files (x86)\Git\bin\ssh.exe
+	* Changed back to C:\Program Files\TortoiseGit\bin\TortoisePlink.exe
+	* finally it works for file system, although egit sucks
+	* [another reference](http://www.munsplace.com/blog/2012/07/27/saving-username-and-password-with-tortoisegit/)
 
+	
 #bak
 1. .gitignore
 	*.bak
