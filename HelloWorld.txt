@@ -1,9 +1,0 @@
-This text file is just for test.
-
-Hello, World!
-
-This is an updated version.
-
-Again.
-
-
